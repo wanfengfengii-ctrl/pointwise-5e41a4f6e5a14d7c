@@ -1,0 +1,2 @@
+class InvalidPackage(ValueError):
+    pass

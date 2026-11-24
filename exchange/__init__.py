@@ -1,4 +1,9 @@
 from exchange.issuer import issue as issue
+from exchange.public_issuer import issue_public as issue_public
 from exchange.receiver import InvalidPackage as InvalidPackage
+from exchange.receiver import ReceivedAnyPackage as ReceivedAnyPackage
 from exchange.receiver import ReceivedPackage as ReceivedPackage
 from exchange.receiver import receive as receive
+from exchange.receiver import receive_any as receive_any
+from exchange.v2 import PublicBound as PublicBound
+from exchange.v2 import ReceivedV2Package as ReceivedV2Package
